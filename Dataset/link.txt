@@ -1,0 +1,1 @@
+https://www.kaggle.com/datasets/houcembenmansour/predict-diabetes-based-on-diagnostic-measures

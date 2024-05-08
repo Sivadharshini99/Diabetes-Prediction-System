@@ -1,4 +1,6 @@
 Diabetes Prediction System
+
+
 The Diabetes Prediction System is a machine learning-based web application designed to predict the likelihood of diabetes based on various health parameters. This README provides an overview of the system, its features, and instructions for installation and usage.
 
 Features

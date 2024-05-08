@@ -45,7 +45,7 @@ git clone https://github.com/your-username/diabetes-prediction.git
  ```
    
 6. Access the application at in your web browser.
-7. 
+
 Anaconda Command Prompt is a command-line interface provided by Anaconda Navigator, which allows users to manage environments, packages, and execute Python scripts. Here's how you can use Anaconda Command Prompt:
 
  1. Open Anaconda Command Prompt:

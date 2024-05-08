@@ -23,22 +23,104 @@ git clone https://github.com/your-username/diabetes-prediction.git
 ```
    
 2. Navigate to the project directory:
-
+ ```
    cd diabetes-prediction-system
+ ```
 
 3. Install dependencies:
-
-   pip install -r requirements.txt
+ ```
+   pip install required packages
+ ```
 
 4. Apply database migrations:
-
+ ```
    python manage.py migrate
+ ```
 
 5. Start the development server:
-
-   python manage.py runserver
+ ```
+  python manage.py runserver
+ ```
    
 6. Access the application at in your web browser.
+7. 
+Anaconda Command Prompt is a command-line interface provided by Anaconda Navigator, which allows users to manage environments, packages, and execute Python scripts. Here's how you can use Anaconda Command Prompt:
+
+ 1. Open Anaconda Command Prompt:
+
+- On Windows:
+  - Search for "Anaconda Command Prompt" in the Start menu.
+  - Click on it to open.
+
+ 2. Activate Anaconda Environment:
+
+- If you have created a specific environment, activate it using the following command:
+  ```
+  conda activate <environment_name>
+  ```
+  Replace `<environment_name>` with the name of your environment.
+
+- If you're using the base environment, it's not necessary to activate it.
+
+ 3. Install Packages:
+
+- To install packages, you can use `conda` or `pip`:
+  - Using conda:
+    ```
+    conda install <package_name>
+    ```
+  - Using pip:
+    ```
+    pip install <package_name>
+    ```
+
+ 4. Update Packages:
+
+- To update packages, use:
+  ```
+  conda update --all
+  ```
+
+ 5. Create Anaconda Environment:
+
+- To create a new environment, use:
+  ```
+  conda create --name <environment_name>
+  ```
+
+ 6. Deactivate Anaconda Environment:
+
+- To deactivate the current environment, use:
+  ```
+  conda deactivate
+  ```
+
+ 7. Check Installed Packages:
+
+- To see a list of installed packages in the current environment, use:
+  ```
+  conda list
+  ```
+
+ 8. Run Python Scripts:
+
+- You can execute Python scripts directly from the command prompt:
+  ```
+  python <script_name.py>
+  ```
+
+### 9. Open Jupyter Notebook:
+
+- To open Jupyter Notebook, simply type:
+  ```
+  jupyter notebook
+  ```
+
+ 10. Miscellaneous Commands:
+
+- There are several other commands you can use in Anaconda Command Prompt, such as managing environments, exporting environments, removing packages, etc. You can find more details in the Anaconda documentation or by using the `--help` option with specific commands.
+
+Anaconda Command Prompt provides a convenient way to manage Python environments and packages, especially when working with data science and machine learning projects.
 
 Module Description
 1. Data Preprocessing
